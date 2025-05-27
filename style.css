@@ -10,7 +10,7 @@ body {
 
 .contenedor {
     background-color: hsl(0, 0%, 100%);
-    width: 600px;
+    width: 450px;
     border-radius: 15px;
     overflow: hidden;
     margin: 70px auto;
@@ -26,22 +26,22 @@ h1 {
     color: hsl(24, 5%, 18%);
     font-family: "Young Serif", serif;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 23px;
     margin: 5px 0;
 }
 
 p {
     color: hsl(30, 10%, 34%);
     font-family: "Outfit", sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     margin: 5px 0px 15px;
     line-height: 1.4;
     font-weight: 400;
+    text-align: justify;
 }
 
 .section {
     margin: 22px 0 ;
-    font-size: 14px;
 }
 
 .time {
@@ -53,7 +53,7 @@ p {
 li {
     color: hsl(30, 10%, 34%);
     font-family: "Outfit", sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     margin: 0 20px 3px;
     padding: 5px;
 }
@@ -62,8 +62,8 @@ h2 {
   font-family: "Outfit", sans-serif;  
   color: hsl(332, 51%, 32%);
   font-weight: 600;
-  font-size: 18px;
-  
+  font-size: 12px;
+  margin-bottom:6px ;  
 }
 
 span {
@@ -81,7 +81,7 @@ h3 {
 
 .section ul, .section ol {
     list-style-position: outside;
-    text-align: left;
+    text-align: justify;
 }
 
 .section ul li, .section ol li {
@@ -109,7 +109,7 @@ section ol ::marker , section ul::marker {
 
 td {
     font-family: "Outfit", sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     padding: 10px 0;
     padding-left: 25px;
     line-height: 1.8;
